@@ -1,5 +1,6 @@
-public interface TicketService {
+package me.walmart;
 
+public interface TicketService {
 
 
   /**
@@ -14,7 +15,7 @@ public interface TicketService {
    *
    * @param numSeats      the number of seats to find and hold
    * @param customerEmail unique identifier for the customer
-   * @return a SeatHold object identifying the specific seats and related
+   * @return a BitSeatHold object identifying the specific seats and related
    * information
    */
   SeatHold findAndHoldSeats(int numSeats, String customerEmail);
